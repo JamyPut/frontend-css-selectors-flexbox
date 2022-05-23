@@ -45,4 +45,12 @@
 .five{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+.fiveone, .fivetwo, .fivethree{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    flex-basis: 33%;
+    min-width: 400px;
 }
