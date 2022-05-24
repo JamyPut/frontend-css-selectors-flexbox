@@ -7,3 +7,25 @@ body{
 .introduction-text{
     text-align: center;
 }
+.three-blocks-container{
+    list-style: none;
+    /*background-color: green;*/
+    color: #151E3F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+
+}
+.block-item-one, .block-item-two, .block-item-three{
+    box-sizing: border-box;
+    background-color: #C16E70;
+    margin: 15px;
+    padding: 25px;
+    height: 400px;
+    border-radius: 10px;
+    flex-basis: 250px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+}
