@@ -1,14 +1,15 @@
-body{
+body {
     background-color: #F2F3D9;
     color: #030027;
     font-family: Roboto, Roboto, sans-serif;
     margin: 0;
 }
 
-.introduction-text{
+.introduction-text {
     text-align: center;
 }
-.three-blocks-container{
+
+.three-blocks-container {
     list-style: none;
     /*background-color: green;*/
     color: #151E3F;
@@ -18,7 +19,8 @@ body{
     margin: 40px;
 
 }
-.block-item-one, .block-item-two, .block-item-three{
+
+.block-item-one, .block-item-two, .block-item-three {
     box-sizing: border-box;
     background-color: #C16E70;
     margin: 15px;
@@ -30,7 +32,8 @@ body{
     display: flex;
     align-items: flex-end;
 }
-.navbar{
+
+.navbar {
     display: flex;
     background-color: #030027;
     color: white;
@@ -39,7 +42,8 @@ body{
     align-items: center;
     text-transform: capitalize;
 }
-.navbar-items{
+
+.navbar-items {
     list-style: none;
     color: white;
     display: flex;
@@ -48,16 +52,19 @@ body{
     flex-basis: 33%;
     margin: 40px
 }
-.navbar-items a{
+
+.navbar-items a {
     color: white;
     text-decoration: none;
 }
-.navbar-items a:visited{
+
+.navbar-items a:visited {
     color: white;
     text-decoration: none;
     list-style: none;
 }
-#company-name{
+
+#company-name {
     text-transform: uppercase;
     margin: 40px;
 }
